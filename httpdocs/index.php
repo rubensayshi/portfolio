@@ -3,6 +3,8 @@
 $rootDir	= dirname(dirname(__FILE__));
 $pageDir	= "{$rootDir}/pages";
 $incDir		= "{$rootDir}/includes";
+$baseUrl	= (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'www.unknown-host.com');
+$env		= preg_match("/(www\.)?rubensayshi\.com$/", $baseUrl) ? 'prod' : 'dev';
 
 require "{$incDir}/page.inc.php";
 require "{$incDir}/url.inc.php";
