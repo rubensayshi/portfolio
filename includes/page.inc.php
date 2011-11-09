@@ -3,7 +3,15 @@
 $pages		= array(
 	'index'		=> array(
 		'page'		=> 'index',
-		'title'		=> 'AboutMe',
+		'title'		=> 'Hello!',
+	),
+	'aboutme'	=> array(
+		'page'		=> 'aboutme',
+		'title'		=> 'About Me',
+	),
+	'aboutsite'	=> array(
+		'page'		=> 'aboutsite',
+		'title'		=> 'About This Site',
 	),
 	'resume'	=> array(
 		'page'		=> 'resume',
