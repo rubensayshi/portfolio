@@ -8,11 +8,11 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/font.css" />
-	<link rel="stylesheet" href="css/text.css" />
-	<link rel="stylesheet" href="css/960.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="<?php echo asset('css/reset.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo asset('css/font.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo asset('css/text.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo asset('css/960.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>" />
 	
 	<title><?php echo $page['title']; ?> | Ruben de Vries</title>
 </head>
