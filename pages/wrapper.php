@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="<?php echo asset('css/text.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/960.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>" />
+	<?php if ($env == 'prod'): ?>
+		<link rel="stylesheet" href="<?php echo asset('css/tilt.css'); ?>" />
+	<?php endif; ?>
 	
 	<title><?php echo $page['title']; ?> | Ruben de Vries</title>
 </head>

@@ -33,10 +33,11 @@ $url		= explode("/", $_SERVER['REQUEST_URI']);
 $url		= array_values(array_filter($url));
 
 $page		= false;
-$first		= strtolower($url);
+$first		= strtolower($url[0]);
 
 $page		= false;
 $default	= 'index';
+
 if (!$page && isset($pages[$first])) {
 	$page = &$pages[$first];
 }
