@@ -5,8 +5,8 @@
 </p>
 
 <h4 class="long">RTVRijnmond<small>Hoppinger</small></h4>
-	<ul>
-		<li><a href="http://www.rijnmond.nl">Beta website</a></li>
+<ul>
+	<li><a href="http://www.rijnmond.nl">Beta website</a></li>
 </ul>
 <p>
 	We've developed a new website for the local (tv and radio) broadcasting station in Rotterdam. <br />
@@ -34,8 +34,8 @@
 </p>
 
 <h4 class="long">Gites<small>Hoppinger</small></h4>
-	<ul>
-		<li><a href="http://www.gites.nl">Gites website</a></li>
+<ul>
+	<li><a href="http://www.gites.nl">Gites website</a></li>
 </ul>
 <p>
 	Gites is a very special relation for Hoppinger since they share the same owners (sort of). <br />
