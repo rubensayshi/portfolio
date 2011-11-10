@@ -29,7 +29,7 @@
 
 <h4>The code</h4>
 <p>
-	I love open source and I love git and github! So you can checkout the code which this website is running on on github: https://github.com/rubensayshi/portfolio <br />
+	I love open source and I love git and github! So you can checkout the code which this website is running on on github: <a href="https://github.com/rubensayshi/portfolio">https://github.com/rubensayshi/portfolio</a><br />
 	You'll most likely be looking at the master branch, other branches might include new upcoming features or things that I've removed already!
 </p>
 
