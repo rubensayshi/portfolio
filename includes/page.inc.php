@@ -9,21 +9,25 @@ $pages		= array(
 		'page'		=> 'aboutme',
 		'title'		=> 'About Me',
 	),
-	'aboutsite'	=> array(
-		'page'		=> 'aboutsite',
-		'title'		=> 'About This Site',
-	),
 	'resume'	=> array(
 		'page'		=> 'resume',
 		'title'		=> 'Resume',
+	),
+	'projects'	=> array(
+		'page'		=> 'projects',
+		'title'		=> 'Projects',
+	),
+	'portfolio'	=> array(
+		'page'		=> 'portfolio',
+		'title'		=> 'Portfolio',
 	),
 	'blog'		=> array(
 		'page'		=> 'blog',
 		'title'		=> 'Blog',
 	),
-	'projects'	=> array(
-		'page'		=> 'projects',
-		'title'		=> 'Projects',
+	'aboutsite'	=> array(
+		'page'		=> 'aboutsite',
+		'title'		=> 'About This Site',
 	),
 );
 
