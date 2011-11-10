@@ -50,7 +50,7 @@ body {
 	min-height: 600px;
 }
 
-.content h2, h4 {
+.content h2, h4, h5 {
 	background-color: black;
 	color: white;
 	margin: 0px 0px 10px -20px;
@@ -58,10 +58,22 @@ body {
 	font-size: 14px;
 	width: 200px;
 	text-transform: uppercase;
+	clear: both;
 }
 
 .content h4 {
 	font-size: 12px;				
+}
+.content h5 {
+	font-size: 10px;
+	line-height: 1em;				
+}
+
+.content .more h5 {
+	float: right;
+	text-align: right;
+	margin: 0px -20px 10px 0px;
+	padding: 4px 20px 4px 4px;
 }
 
 .sidebar {
