@@ -1,15 +1,38 @@
 <?php 
+/**
+ * @file
+ * 
+ * this is the frontend controller for the application
+ * all non-static requests should go through this
+ */
 
+
+/*
+ * setup some initial vars for bootstrapping
+ */
 $rootDir	= dirname(dirname(__FILE__));
 $pageDir	= "{$rootDir}/pages";
 $incDir		= "{$rootDir}/includes";
 $baseUrl	= (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'www.unknown-host.com');
 $env		= preg_match("/(www\.)?rubensayshi\.com$/", $baseUrl) ? 'prod' : 'dev';
 
-require "{$incDir}/page.inc.php";
+/*
+ * require some helper functions
+ */
 require "{$incDir}/url.inc.php";
 
-$content		= false;
+/*
+ * require page bootstrap process
+ * this will setup the following vars
+ * 
+ * @var	$pages	array[array]	all the pages 
+ * @var	$page	array			the active page
+ */
+require "{$incDir}/page.inc.php";
+
+/*
+ * atempt to find a file which we can include (php) or read (html) to handle the page request 
+ */
 if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
 	ob_start();
 
@@ -20,4 +43,8 @@ if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
 	$page['content'] = file_get_contents($pageFile);
 }
 
+/*
+ * include the wrapper template which gets all the variable defined in our current scope
+ * and can build up the page using $pages and $page
+ */
 require "{$pageDir}/wrapper.php";
