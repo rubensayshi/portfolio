@@ -2,7 +2,7 @@
 /**
  * @file
  * 
- * this is the frontend controller for the application
+ * this is the front controller for the application
  * all non-static requests should go through this
  */
 
