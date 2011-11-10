@@ -50,7 +50,9 @@ body {
 	min-height: 600px;
 }
 
-.content h2, h4, h5 {
+.content h2, 
+.content h4, 
+.content h5 {
 	background-color: black;
 	color: white;
 	margin: 0px 0px 10px -20px;
@@ -69,11 +71,29 @@ body {
 	line-height: 1em;				
 }
 
+.content h2.long, 
+.content h4.long, 
+.content h5.long {
+	width: 300px;
+}
+
+.content h2 small, 
+.content h4 small, 
+.content h5 small {
+	float: right;
+	text-align: right;
+	padding-right: 4px;
+}
+
 .content .more h5 {
 	float: right;
 	text-align: right;
 	margin: 0px -20px 10px 0px;
 	padding: 4px 20px 4px 4px;
+}
+
+.content ul {
+				
 }
 
 .sidebar {
@@ -101,6 +121,7 @@ body {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
+	display: block;
 }
 
 .sidebar nav li.active {

@@ -42,7 +42,7 @@
 	With so many open source communities building and maintaining frameworks having a homebrew framework nowadays is like a upstream battle. <br />
 	In the past 2 years I've gone from maintaining a homebrew framework to exploring almost all major PHP frameworks out there! <br />
 	<br />
-	Though I've tried many the one I've come to love is Symfony2 since this is (curently) the framework that's the most elegant and just using it forces you to become a better programmer. <br />
+	Though I've tried many the one I've come to love is <i>Symfony2</i> since this is (curently) the framework that's the most elegant and just using it forces you to become a better programmer. <br />
 	There are many more out there such as Yii, Fuel, Flow, Lithium. etc. and I'm sure I could also learn to love those if I spend some time working with those! <br />
 	<ul>
 		<li>Symfony2 (PHP)</li>
@@ -120,7 +120,8 @@
 
 <h5>Version Control</h5>
 <p>
-	
+	Withouth version control my job would be horible! I can't believe what life would be like with <i>SVN</i> and I'd love a life where every mastered <i>GIT</i>. <br />
+	I'm a big fan of github for open source communities and <i>GIT</i> provides such an edge over <i>SVN</i>, being able to create branches for everything you want and rarely having problems merging. <br />
 	<ul>
 		<li>CVS</li>
 		<li>SVN</li>

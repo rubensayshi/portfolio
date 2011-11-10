@@ -7,7 +7,7 @@
 	So instead of blogging continuesly about whatever comes up in my mind I'll just limit myself to writing about major changes in my (professional) life.
 </p>
 
-<h4>Looking for a new job <small>01-11-2011</small></h4>
+<h4 class="long">Looking for a new job <small>01-11-2011</small></h4>
 <p>
 	After a 6 month internship at Hoppinger I graduated and got a job there as webdeveloper. <br />
 	Starting at the bottom of the foodchain I quickly worked myself up from being the new kid on the block (junior developer) to a valued asset of the team of webdevelopers. <br />
