@@ -3,10 +3,6 @@
 	Ruben de Vries <br />
 	Webdeveloper <br />
 	Fanatic snowboarder, gamer <br />
-	<ul>
-		<li><a href="http://twitter.com/saiko_ben">Twitter</a></li>
-		<li><a href="https://github.com/rubensayshi">Github</a></li>
-	</ul>
 </p>
 
 <h4>I'm a webdeveloper</h4>

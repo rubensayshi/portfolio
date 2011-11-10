@@ -34,6 +34,11 @@
 				<?php endforeach; ?>
 			</ul>
 		</nav>
+		<ul class="contact">
+			<li><a href="mailto:ruben@rubensayshi.com">E-Mail</a></li>
+			<li><a href="http://twitter.com/saiko_ben">Twitter</a></li>
+			<li><a href="https://github.com/rubensayshi">Github</a></li>
+		</ul>
 	</div>
 	<div class="grid_9 content-wrapper">
 		<div class="content">
