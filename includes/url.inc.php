@@ -1,5 +1,12 @@
 <?php 
 
+/**
+ * helper function to create an internal URL
+ * curently it just prefixes the URL with a / but this should become more advanced if the project would need to run in a subdirectory
+ * 
+ * @param	string		$url			input url, should be relative to the webroot
+ * @return	string						output url
+ */
 function url($url) 
 {
 	if ($url == 'index') {
@@ -9,6 +16,13 @@ function url($url)
 	return "/{$url}";
 }
 
+/**
+ * helper function to create an internal URL to an asset
+ * curently uses the url() function but this should be build into something with versioned asset URLs
+ * 
+ * @param	string		$asset			input url, should be relative to the webroot
+ * @return	string						output url
+ */
 function asset($asset)
 {
 	return url($asset);
