@@ -122,10 +122,11 @@
 <p>
 	Withouth version control my job would be horible! I can't believe what life would be like with <i>SVN</i> and I'd love a life where every mastered <i>GIT</i>. <br />
 	I'm a big fan of github for open source communities and <i>GIT</i> provides such an edge over <i>SVN</i>, being able to create branches for everything you want and rarely having problems merging. <br />
+	<i>Git-flow</i> is a small helper tool for <i>GIT</i> which helps you maintain the flow of your code within your project (between master, develop, feature, release and hotfix branches). <br />
 	<ul>
 		<li>CVS</li>
 		<li>SVN</li>
-		<li>GIT (github)</li>
+		<li>GIT (github, git-flow)</li>
 	</ul>
 
 </p>
