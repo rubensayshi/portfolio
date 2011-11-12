@@ -27,7 +27,7 @@
 		</h2>
 	</div>
 	<div class="grid_3 sidebar">
-		<nav class=".nav">
+		<nav class="nav">
 			<ul>
 				<?php foreach($pages as $p): ?>
 					<li class="<?php echo ($p['active'] ? 'active' : ''); ?>"><a href="<?php echo url($p['url']); ?>"><?php echo $p['title']; ?></a></li>
