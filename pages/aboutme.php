@@ -7,7 +7,7 @@
 
 <h4>I'm a Webdeveloper</h4>
 <p>
-	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
+	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so-called 'code monkey' which you feed pizza in exchange for a website!
 </p>
 <p>
 	Developing so-called 'webapplications' requires a continiously expanding skillset to fit the needs of clients and an open mind to any new techniques out there. <br />
@@ -22,14 +22,14 @@
 <p>
 	Ok, so my skills? I'm a flexible, smart and enthusiastic programmer! <br />
 	In the past I've learned to use various techniques, but more importantly I've learned to learn them! <br /> 
-	As a programmer you at some point learn to quickly adapt to new techniques and can easily switch between programming languages. <br />
+	As a programmer you reach a point where you learn to quickly adapt to new techniques and can easily switch between programming languages. <br />
 	<br />
 	Below I'll tell you something about the ones I curently have enough experience in to use them for a real client withouth any prior research / training.
 </p>
 <h5>Server sided scripting languages</h5>
 <p>
 	Though every programming language could serve webpages some are more adapt at it and more importantly, more accepted! <br />
-	When choosing a language for a webapplication it's important to choose one which fits the needs of the client and match the skillset of the team working on it. <br />
+	When choosing a language for a webapplication it's important to choose one which fits the needs of the client and matches the skillset of the team working on it. <br />
 	<ul>
 		<li>PHP</li>
 		<li>NodeJS</li>

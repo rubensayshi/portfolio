@@ -7,7 +7,7 @@
 
 <h4>I'm a webdeveloper</h4>
 <p>
-	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
+	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so-called 'code monkey' which you feed pizza in exchange for a website!
 </p>
 <p>
 	Developing so-called 'webapplications' requires a continiously expanding skillset to fit the needs of clients and an open mind to any new techniques out there. <br />
