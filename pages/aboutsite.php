@@ -33,3 +33,9 @@
 	You'll most likely be looking at the master branch, other branches might include new upcoming features or things that I've removed already!
 </p>
 
+<h4>The domain</h4>
+<p>
+	It's getting rather hard to find a decent domainname these days since there are so many people creating (personal) websites. <br />
+	I'm aware of the fact that 'rubensayshi' is not correct english, but 'rubensaishi' doesn't look that good. 
+</p>
+
