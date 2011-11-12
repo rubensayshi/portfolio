@@ -7,11 +7,11 @@
 
 <h4>I'm a webdeveloper</h4>
 <p>
-	And on contrary belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
+	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
 </p>
 <p>
 	Developing so-called 'webapplications' requires a continiously expanding skillset to fit the needs of clients and an open mind to any new techniques out there. <br />
-	Actually, any webdeveloper who really loves his job goes being an 'open mind' and is always searching for the next new thing which might change the world!
+	Actually, any webdeveloper who really loves his job should be 'open minded' and is always searching for the next new thing which might change the world!
 </p>
 <a class="more" href="<?php echo url("aboutme"); ?>"><h5>More about me</h5></a>
 

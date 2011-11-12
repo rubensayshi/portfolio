@@ -7,21 +7,21 @@
 
 <h4>I'm a Webdeveloper</h4>
 <p>
-	And on contrary belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
+	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so called 'code monkey' which you feed pizza in exchange for a website!
 </p>
 <p>
 	Developing so-called 'webapplications' requires a continiously expanding skillset to fit the needs of clients and an open mind to any new techniques out there. <br />
-	Actually, any webdeveloper who really loves his job goes being an 'open mind' and is always searching for the next new thing which might change the world!
+	Actually, any webdeveloper who really loves his job should be 'open minded' and is always searching for the next new thing which might change the world!
 </p>
 <p>
-	At the bottom of the pyramid of webdevelopers the above is all you'll ever need, but going up the ladder all the lines between developers and managers, and frontend and backend become a lot more vague! <br />
+	At the bottom of the pyramid of webdevelopers the above is all you'll ever need. Going up the ladder all the lines between developers and managers, frontend and backend become a lot more vague! <br />
 	As a webdeveloper you'll have to manage the wishes and expectations of your client and work with your team to get him what he wants eventhough a client rarely knows what he really wants or his wishes change during the course of the project.
 </p>
 
 <h4>My Skills</h4>
 <p>
 	Ok, so my skills? I'm a flexible, smart and enthusiastic programmer! <br />
-	In the past I've learned to use various techniques, but more importantly I've learned to learn them! 
+	In the past I've learned to use various techniques, but more importantly I've learned to learn them! <br /> 
 	As a programmer you at some point learn to quickly adapt to new techniques and can easily switch between programming languages. <br />
 	<br />
 	Below I'll tell you something about the ones I curently have enough experience in to use them for a real client withouth any prior research / training.
