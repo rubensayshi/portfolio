@@ -38,8 +38,8 @@
 
 <h5>Frameworks</h5>
 <p>
-	Most webapplications share a lot of functionality and to avoid having to reinvent the wheel everytime we use libraries or bundles of libraries called frameworks to a strong foundation for our webapplication. <br />
-	With so many open source communities building and maintaining frameworks having a homebrew framework nowadays is like a upstream battle. <br />
+	Most webapplications share a lot of functionality. To avoid having to reinvent the wheel everytime, we use bundles of libraries (so-called frameworks) to a use as a strong foundation for our webapplication. <br />
+	With so many open source communities building and maintaining frameworks, having a homebrew framework nowadays is like an upstream battle. <br />
 	In the past 2 years I've gone from maintaining a homebrew framework to exploring almost all major PHP frameworks out there! <br />
 	<br />
 	Though I've tried many the one I've come to love is <i>Symfony2</i> since this is (curently) the framework that's the most elegant and just using it forces you to become a better programmer. <br />
@@ -83,7 +83,7 @@
 	To create a more pleasant user experience we use <i>javascript</i> to enhance our <i>HTML</i> and <i>CSS</i>. <br />
 	This can be as simple as a small dropdown menu or as complex as an application being completely <i>AJAX</i> powered. <br />
 	<br />
-	Eventhough <i>javascript</i> can be a elegant language, it can also (very quickly) become a big mess. <br />
+	Eventhough <i>javascript</i> can be an elegant language, it can also (very quickly) become a big mess. <br />
 	To keep your <i>javascript</i> clean and to save yourself a lot of time everyone nowadays uses a framework (be it open source or homebrew). <br />
 	<ul>
 		<li>Javascript</li>
