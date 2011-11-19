@@ -114,6 +114,7 @@ a:hover {
 .sidebar .nav li {
 	list-style: none;
 	background-color: white;
+	border: 2px solid white;
 	color: black;
 	margin: 0px -20px 10px 0px;
 	padding: 4px 20px 4px 0px;
@@ -129,13 +130,16 @@ a:hover {
 	text-decoration: none;
 	display: block;
 }
-
+.sidebar .nav li:hover,
 .sidebar .nav li.active {
+	-moz-transition: all 0.7s ease-in-out 0s;
 	background-color: black;
 	border: 2px solid white;
 }
 
+.sidebar .nav li:hover a,
 .sidebar .nav li.active a {
+	-moz-transition: all 0.3s ease-in-out 0s;
 	color: white;
 }
 
