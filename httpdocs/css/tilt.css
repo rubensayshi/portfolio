@@ -1,7 +1,0 @@
-#container {
-	position: relative;
-	top: -70px;
-	-webkit-transform: rotate(-3deg);
-	   -moz-transform: rotate(-3deg);
-	        transform: rotate(-3deg);
-}
