@@ -130,6 +130,7 @@ a:hover {
 	text-decoration: none;
 	display: block;
 }
+
 .sidebar .nav li:hover,
 .sidebar .nav li.active {
 	-moz-transition: all 0.7s ease-in-out 0s;
@@ -155,10 +156,23 @@ a:hover {
 	margin: 0px -20px 4px 0px;
 	padding: 4px 20px 4px 0px;
 }
+
 .sidebar .contact li a {
 	background-color: transparent;
 	text-decoration: none;				
 	color: white;
 	display: block;
 }
+
+.sidebar .contact li:hover {
+	-moz-transition: all 0.7s ease-in-out 0s;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+
+.sidebar .contact li:hover a {
+	-moz-transition: all 0.7s ease-in-out 0s;
+	color: black;
+}
+
 
