@@ -1,3 +1,4 @@
+<h1>About this site</h1>
 <p>
 	I've created this website to tell the world a little bit about myself. <br />
 	And ofcourse because I love building websites and I'm always looking for a reason to create a new website and try out new things!
@@ -6,7 +7,8 @@
 <h4>It's (almost) static!</h4>
 <p>
 	So as we speak this website is still almost completely static! <br />
-	Since I prefer editing pages in HTML over a WYWIWYG editor and I needed a (new) portfolio up in running as soon as posible I've chosen to build it from scratch and only use some PHP to avoid having to copy paste common parts of the website (such as header / footer / menu).
+	Since I prefer editing pages in HTML over a WYWIWYG editor and I needed a (new) portfolio up in running as soon as posible I've chosen to build it from scratch and only use some PHP to avoid having to copy paste common parts of the website (such as header / footer / menu).<br />
+	The code it's running on is very to the point. I've already used it for another side project to since it's easy and reliable!
 </p>
 
 <h4>The design</h4>

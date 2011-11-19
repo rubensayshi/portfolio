@@ -1,11 +1,11 @@
-<h2>Who am I?</h2>
+<h1>Who am I?</h1>
 <p>
 	Ruben de Vries <br />
 	Webdeveloper <br />
 	Fanatic snowboarder, gamer
 </p>
 
-<h4>I'm a Webdeveloper</h4>
+<h3>I'm a Webdeveloper</h3>
 <p>
 	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so-called 'code monkey' which you feed pizza in exchange for a website!
 </p>
@@ -18,7 +18,7 @@
 	As a webdeveloper you'll have to manage the wishes and expectations of your client and work with your team to get him what he wants eventhough a client rarely knows what he really wants or his wishes change during the course of the project.
 </p>
 
-<h4>My Skills</h4>
+<h3>My Skills</h3>
 <p>
 	Ok, so my skills? I'm a flexible, smart and enthusiastic programmer! <br />
 	In the past I've learned to use various techniques, but more importantly I've learned to learn them! <br /> 
@@ -26,7 +26,7 @@
 	<br />
 	Below I'll tell you something about the ones I curently have enough experience in to use them for a real client withouth any prior research / training.
 </p>
-<h5>Server sided scripting languages</h5>
+<h4>Server sided scripting languages</h4>
 <p>
 	Though every programming language could serve webpages some are more adapt at it and more importantly, more accepted! <br />
 	When choosing a language for a webapplication it's important to choose one which fits the needs of the client and matches the skillset of the team working on it. <br />
@@ -36,7 +36,7 @@
 	</ul>
 </p>
 
-<h5>Frameworks</h5>
+<h4>Frameworks</h4>
 <p>
 	Most webapplications share a lot of functionality. To avoid having to reinvent the wheel everytime, we use bundles of libraries (so-called frameworks) to a use as a strong foundation for our webapplication. <br />
 	With so many open source communities building and maintaining frameworks, having a homebrew framework nowadays is like an upstream battle. <br />
@@ -51,7 +51,7 @@
 	</ul>
 </p>
 
-<h5>CMS</h5>
+<h4>CMS</h4>
 <p>
 	The choice between starting a webapplication based on a framework or a CMS (or from scratch even) can be a tough one and is almost as important as the choice of the programming language (or maybe even more important!). <br />
 	Using a CMS might give you a lot of out-of-the-box functionality but if you won't be using 80% of it then it will (unnecessarly) slow your webapplication down. <br />
@@ -64,7 +64,7 @@
 	</ul>
 </p>
 
-<h5>HTML / CSS - markup and style</h5>
+<h4>HTML / CSS - markup and style</h4>
 <p>
 	Webapplications are all about delivering content to people visiting your website using a webbrowser. <br />
 	For this we're limited to using <i>HTML</i> and <i>CSS</i> for the presentation of the content we deliver. <br /><br />
@@ -77,7 +77,7 @@
 	</ul>
 </p>
 
-<h5>Rich Internet Applications</h5>
+<h4>Rich Internet Applications</h4>
 <p>
 	The term 'Rich Internet Application' (short: RIA) means that websites nowadays are evolving to look a lot more like a real application (hence we call them webapplications). <br />
 	To create a more pleasant user experience we use <i>javascript</i> to enhance our <i>HTML</i> and <i>CSS</i>. <br />
@@ -94,7 +94,7 @@
 	</ul>
 </p>
 
-<h5>Other languages</h5>
+<h4>Other languages</h4>
 <p>
 	Some other languages I'm familiar with but which do not fit in the above categories. <br />
 	<ul>
@@ -105,7 +105,7 @@
 	</ul>
 </p>
 
-<h5>Automation</h5>
+<h4>Automation</h4>
 <p>
 	I'd almost consider placing automation at the top of the list since lately this has become one of the major assets I can add to a team! <br />
 	Even if we would ignore all the cloud hosting these days automation is already something you should invert your time in as webdeveloper. <br />
@@ -118,7 +118,7 @@
 	</ul>
 </p>
 
-<h5>Version Control</h5>
+<h4>Version Control</h4>
 <p>
 	Withouth version control my job would be horible! I can't believe what life would be like with <i>SVN</i> and I'd love a life where every mastered <i>GIT</i>. <br />
 	I'm a big fan of github for open source communities and <i>GIT</i> provides such an edge over <i>SVN</i>, being able to create branches for everything you want and rarely having problems merging. <br />
@@ -131,7 +131,7 @@
 
 </p>
 
-<h5>Server software</h5>
+<h4>Server software</h4>
 <p>
 	There are so many tools available to be installed on your servers that I could never list them all so curently the the most important are by far the following; <br />
 	<i>Linux</i> is at the base of most webservers beating Windows servers by far and I've grown to love <i>Linux</i> so much that I've even switched from working on Windows to Ubuntu on my (work)laptop. <br />
@@ -146,7 +146,7 @@
 	</ul>
 </p>
 
-<h5>Databases</h5>
+<h4>Databases</h4>
 <p>
 	The backbone of most webapplications is a database and there are a lot of database servers out there. <br />
 	The most traditional database servers are SQL databases and are all a lot alike. <br />

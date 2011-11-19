@@ -1,5 +1,9 @@
-<h2 class="long">Curriculum Vitea</h2>
-<h4>Personalia</h4>
+<h1>Curriculum Vitea</h1>
+<p>
+	This is my resume, last updated on 19 november 2011. <br />
+</p>
+
+<h3>Personalia</h3>
 <div class="row">
 	<div class="span2">Naam:</div>
 	<div class="span3">Ruben de Vries</div>
@@ -33,7 +37,7 @@
 
 <div class="spacer"></div>
 
-<h4>Opleidingen</h4>
+<h3>Opleidingen</h3>
 <div class="row">
 	<div class="span3">HAVO - Willem de Zwijger College</div>				
 	<div class="span1">1999-2004</div>	
@@ -47,8 +51,8 @@
 
 <div class="spacer"></div>
 
-<h4>Werkervaring</h4>
-<h5>Restaurant de Poort</h5>
+<h3>Werkervaring</h3>
+<h4>Restaurant de Poort</h4>
 <div class="row">
 	<div class="span2">Periode:</div>
 	<div class="span3">Februari 2003 - Juli 2008</div>
@@ -66,7 +70,7 @@
 
 <div class="spacer"></div>
 
-<h5>Hoppinger</h5>
+<h4>Hoppinger</h4>
 <div class="row">
 	<div class="span2">Periode:</div>
 	<div class="span3">Augustus 2008 - December 2011</div>
@@ -92,7 +96,7 @@
 
 <div class="spacer"></div>
 
-<h4>Talen</h4>
+<h3>Talen</h3>
 <div class="row">
 	<div class="span2">Nederlands</div>
 	<div class="span3">Moedertaal</div>
@@ -106,7 +110,7 @@
 
 <div class="spacer"></div>
 
-<h4>Kennis binnen vakgebied</h4>
+<h3>Kennis binnen vakgebied</h3>
 <div class="row">
 	<div class="span2">Serverside:</div>
 	<div class="span3">PHP, NodeJS<br />

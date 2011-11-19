@@ -5,7 +5,7 @@
 	Fanatic snowboarder, gamer <br />
 </p>
 
-<h4>I'm a webdeveloper</h4>
+<h3>I'm a webdeveloper</h3>
 <p>
 	And on contrary to belief that's <strong>defenatly</strong> not a script kiddie sitting in his attic nor is it a so-called 'code monkey' which you feed pizza in exchange for a website!
 </p>
@@ -15,14 +15,14 @@
 </p>
 <a class="more" href="<?php echo url("aboutme"); ?>"><h5>More about me</h5></a>
 
-<h4>This Website</h4>
+<h3>This Website</h3>
 <p>
 	I've created this website to tell the world a little bit about myself. <br />
 	And ofcourse because I love building websites and I'm always looking for a reason to create a new website and try out new things! <br />
 </p>
 <a class="more" href="<?php echo url("aboutsite"); ?>"><h5>More about this website</h5></a>
 
-<h4>Highlighted project</h4>
+<h3>Highlighted project</h3>
 <p>
 	<strong>Voiture!</strong>
 	Voiture is an SVN-based integrated deployment automation tool for small development teams that develop Drupal (v6 or v7) sites on an *nix/LAMP stack!

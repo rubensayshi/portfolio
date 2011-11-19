@@ -1,10 +1,11 @@
+<h1>Projects</h1>
 <p>
 	I really love doing side projects, they often allow for a lot of freedom! <br />
 	For a list of projects I've done for clients you should check out the <a href="<?php echo url("portfolio"); ?>">portfolio</a> page, this page only lists my personal projects.<br />
 	For a lot of projects you can only find some code on github, if you want to see the projects in action I'd be happy to show you since most are running on my laptop! <br />
 </p>
 
-<h4 class="long">Voiture</h4>
+<h3>Voiture</h3>
 <ul>
 	<li><a href="http://voiture.hoppinger.com">Voiture documentation website</a></li>
 </ul>
@@ -26,14 +27,14 @@
 	</ul>
 </p>
 
-<h4 class="long">NodeJS</h4>
+<h3>NodeJS</h3>
 <p>
 	I love javascript and I love NodeJS! <br />
 	If you check out my github account you'll notice a lot of small NodeJS projects and some forks and watches of other NodeJS projects. <br />
 	Unfortunatly I haven't gotten a chance to use it for a real project and get a webapplication in production using NodeJS yet, but I hope someday I'll get a chance! <br />
 </p>
 
-<h5>Timerime reloaded</h5>
+<h4>Timerime reloaded</h4>
 <ul>
 	<li><a href="https://github.com/rubensayshi/node-timerime-reloaded">Project on github</a></li>
 </ul>
@@ -44,7 +45,7 @@
 	Combining that with my ever lasting search of a real project which I could do with NodeJS, I've created a small prototype called 'timerime reloaded' with NodeJS and MongoDB. <br />
 </p>
 
-<h5>MyBench</h5>
+<h4>MyBench</h4>
 <ul>
 	<li><a href="https://github.com/rubensayshi/mybench">Project on github</a></li>
 </ul>
@@ -52,7 +53,7 @@
 	So during my quest to find a real project for NodeJS I wanted to benchmark some pieces of code and to do so I created a small tool which can startup a NodeJS application and run apache benchmark against it! <br />
 </p>
 
-<h4 class="long">Symfony2</h4>
+<h3>Symfony2</h3>
 <p>
 	During my quest for the most awesome PHP framework out there I came across Symfony1.4 and in my eyes it was ahead of the other frameworks by miles, not to mention that it's documentation is superb! <br />
 	I was planning to build a custom webapplication myself based on Symfony1.4 but around that time the development of Symfony2 had reached the first Preview Release and since I wanted to move towards the future instead of living in the paste I decided to use that instead.
@@ -66,7 +67,7 @@
 	Looking at the projects in my github account you'll notice some forks with minor bug fixes and my involvement is some interesting discussions (also on the google mailing lists for symfony).
 </p>
 
-<h5>GoGreat</h5>
+<h4>GoGreat</h4>
 <ul>
 	<li><a href="https://github.com/rubensayshi/gogreat-self">Project on github</a></li>
 </ul>
@@ -78,7 +79,7 @@
 	<strong>I intend to get this site up and running again as a demo once my portfolio is done.</strong>
 </p>
 
-<h5>Development tools v0.1</h5>
+<h4>Development tools v0.1</h4>
 <ul>
 	<li><a href="https://github.com/rubensayshi/sf2CMS">Project on github</a></li>
 </ul>

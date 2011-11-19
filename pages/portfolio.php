@@ -1,12 +1,13 @@
+<h1>Portfolio</h1>
 <p>
 	During my fairly short carreer so far I've already done dozens of projects for clients and I'm pretty sure I've already forgotten about a few! <br />
 	In my portfolio I'll list some which are worth mentioning, unfortunatly since these are projects for clients most (if not all) are closed source. <br />
 	The list starts with the most recent projects. <br />
 </p>
 
-<h4 class="long">RTVRijnmond<small>Hoppinger</small></h4>
+<h3>RTVRijnmond<small>Hoppinger</small></h3>
 <ul>
-	<li><a href="http://www.rijnmond.nl">Beta website</a></li>
+	<li><a href="http://beta.rijnmond.nl">Beta website</a></li>
 </ul>
 <p>
 	We've developed a new website for the local (tv and radio) broadcasting station in Rotterdam. <br />
@@ -19,8 +20,6 @@
 	Most noticably is the rewritten import modules (for all the content from the old site) going from about 4~5 days of import time to just 2 hours! <br />
 	Somehow other broadcasting stations (and the developers) found running import scripts for days acceptable, we didn't! How would you even go testing that?! <br />
 	<br /> 
-	The website is curently in development and we're soon releasing a (public) beta. <strong>This website won't be live untill 29 november!</strong><br />
-	<br />
 	On the side I've also created a small webapplication which allows partners / relations of RTVRijnmond to maintain their 'teletext' pages. <br />
 	Luckily we were allowed to build this with Symfony2 and I also threw in twitter bootstrap just to give it and shot (and loved it!). <br />
 	<ul>
@@ -33,7 +32,7 @@
 
 </p>
 
-<h4 class="long">Gites<small>Hoppinger</small></h4>
+<h3>Gites<small>Hoppinger</small></h3>
 <ul>
 	<li><a href="http://www.gites.nl">Gites website</a></li>
 </ul>
