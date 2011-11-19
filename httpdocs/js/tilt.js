@@ -1,4 +1,16 @@
+/**
+ * @file
+ * adds a hidden button to enable the tilted version of the website
+ */
+
+/**
+ * window.load
+ */
 $(window).load(function() {
+	/*
+	 * get the required DOM elements
+	 * and make sure they're valid
+	 */
 	var $pageHeader = $('.page-header');
 	var $container	= $('#container');
 	
@@ -6,6 +18,9 @@ $(window).load(function() {
 		return;
 	}
 
+	/**
+	 * enable the tilted version
+	 */
 	var tilt = function() {
 		$container.css({'-webkit-transform':	'rotate(-3deg)',
 						   '-moz-transform':	'rotate(-3deg)',
@@ -13,6 +28,9 @@ $(window).load(function() {
 					});
 	};
 	
+	/*
+	 * create a button and bind tilt
+	 */
 	var $tiltbutton = $('<div />')
 							.css({	width:				'50px',
 									height:				'20px',
@@ -27,6 +45,9 @@ $(window).load(function() {
 							.click(tilt)
 						;
 
+	/*
+	 * append button, make sure the position is relative on the parent for absolute pos of the button
+	 */
 	$pageHeader.css({position: 'relative'}).append($tiltbutton);
 	
 });
