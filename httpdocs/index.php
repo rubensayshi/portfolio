@@ -28,7 +28,7 @@ require "{$incDir}/url.inc.php";
  * @var	$pages	array[array]	all the pages 
  * @var	$page	array			the active page
  */
-require "{$incDir}/page.inc.php";
+require "{$incDir}/bootstrap.inc.php";
 
 /*
  * atempt to find a file which we can include (php) or read (html) to handle the page request 
