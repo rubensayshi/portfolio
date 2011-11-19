@@ -61,7 +61,7 @@ foreach ($pages as $url => $page) {
  */
 $url		= explode("/", $_SERVER['REQUEST_URI']);
 $url		= array_values(array_filter($url));
-$first		= strtolower($url[0]);
+$first		= strtolower(isset($url[0]) ? $url[0] : '');
 $default	= 'index';
 
 /*
