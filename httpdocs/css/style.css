@@ -86,7 +86,8 @@ a:hover {
 	font-size: 12px;				
 }
 
-.content h4 {
+.content h4,
+.content h5 {
 	font-size: 10px;
 	line-height: 1em;				
 }
