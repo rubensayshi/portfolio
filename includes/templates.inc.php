@@ -28,3 +28,32 @@ function get_template_path($template)
 	
 	return $path;
 }
+
+function start_javascript_block()
+{
+	ob_start();
+}
+
+function end_javascript_block()
+{
+	$js = ob_get_clean();
+	set_javascript($js);
+}
+
+function set_javascript($js = null)
+{
+	static $buffer = array();
+	
+	if (is_null($js)) {
+		$js		= implode("\n", $buffer);
+		$buffer	= array();
+		return $js;
+	}
+	
+	$buffer[] = $js;
+}
+
+function get_javascript()
+{
+	return set_javascript();
+}

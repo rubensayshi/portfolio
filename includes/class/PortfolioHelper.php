@@ -77,7 +77,14 @@ abstract class PortfolioHelper
 
 	public static function getImageId($img)
 	{
-		return str_replace('_small', '', $img);
+		$img = explode("/", $img);
+		
+		$name	= array_pop($img);
+		$name	= str_replace('_small', '', $name);
+		$name	= str_replace('.png', '', $name);
+		$dir	= array_pop($img);
+		
+		return "{$dir}-{$name}";
 	}
 	
 	public static function getLargeImage($img)

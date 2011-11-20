@@ -49,5 +49,6 @@
 
 <script type="text/javascript" src="<?php echo asset('js/jquery-1.6.2.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo asset('js/tilt.js'); ?>"></script>
+<?php echo get_javascript(); ?>
 </body>
 </html>
