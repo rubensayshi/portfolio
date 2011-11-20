@@ -15,6 +15,10 @@ $pages		= array(
 		'page'		=> 'aboutme',
 		'title'		=> 'About Me',
 	),
+	'portfolio'	=> array(
+		'page'		=> 'portfolio',
+		'title'		=> 'Portfolio',
+	),
 	'resume'	=> array(
 		'page'		=> 'resume',
 		'title'		=> 'Resume',
@@ -23,10 +27,7 @@ $pages		= array(
 		'page'		=> 'projects',
 		'title'		=> 'Projects',
 	),
-	'portfolio'	=> array(
-		'page'		=> 'portfolio',
-		'title'		=> 'Portfolio',
-	),
+	
 	'blog'		=> array(
 		'page'		=> 'blog',
 		'title'		=> 'Blog',
