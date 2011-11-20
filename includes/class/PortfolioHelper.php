@@ -68,24 +68,25 @@ abstract class PortfolioHelper
 			'title'			=> 'Gites',
 			'images'		=> self::getImages(self::getImageDir() . '/gites'),
 			'content_tpl'	=> 'portfolio/gites',
+			'tags'			=> array('HoppingerCMS', 'Huge project', 'Invoicing', 'Lead developer'),
 		);
 		
 		self::$projects['timerime'] = array(
 			'title'			=> 'Timerime',
 			'images'		=> self::getImages(self::getImageDir() . '/timerime'),
-			'content'		=> 'Pwetty houses',
+			'tags'			=> array('HoppingerCMS', 'High load'),
 		);
 		
 		self::$projects['bondgenoten'] = array(
 			'title'			=> 'Bondgenoten',
 			'images'		=> self::getImages(self::getImageDir() . '/bondgenoten'),
-			'content'		=> 'Pwetty houses',
+			'tags'			=> array('HoppingerCMS'),
 		);
 		
 		self::$projects['dierenambulance'] = array(
 			'title'			=> 'Dierenambulance',
 			'images'		=> self::getImages(self::getImageDir() . '/diam'),
-			'content'		=> 'Pwetty houses',
+			'tags'			=> array('HoppingerCMS'),
 		);
 		
 		$i = 0;

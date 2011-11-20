@@ -297,6 +297,10 @@ a {
 	opacity: 0;
 }
 
+.carousel {
+	margin-bottom: 20px;
+}
+
 .carousel .show_area {
 	border: 2px solid black;
 	width: 656px;
