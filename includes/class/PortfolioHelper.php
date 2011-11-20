@@ -170,6 +170,11 @@ abstract class PortfolioHelper
 		return $images;
 	}
 	
+	/**
+	 * get a random image from the random images folder
+	 * 
+	 * @return array[array]
+	 */
 	protected static function getWorkinprogressImages()
 	{
 		$images = self::getImages(self::getImageDir() . '/random');
