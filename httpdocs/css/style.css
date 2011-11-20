@@ -183,28 +183,34 @@ a:hover {
 	color: black;
 }
 
-.row {
+.resume_table {
+	margin-bottom: 30px;
+}
+
+.resume_table .row {
 	clear: both;
 }
 
-.row .span1, .row .span2, .row .span3 {
+.resume_table.row .span1, 
+.resume_table.row .span2, 
+.resume_table.row .span3 {
 	padding-right: 20px;
 	float: left;
 }
 
-.row .span1 {
+.resume_table .row .span1 {
 	width: 100px;
 }
-.row .span2 {
+.resume_table .row .span2 {
 	width: 200px;
 }
-.row .span3 {
+.resume_table .row .span3 {
 	width: 300px;
 }
-.row .span4 {
+.resume_table .row .span4 {
 	width: 400px;
 }
-.row .span5 {
+.resume_table .row .span5 {
 	width: 500px;
 }
 .spacer {
