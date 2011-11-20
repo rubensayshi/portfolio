@@ -1,7 +1,12 @@
+<?php 
+/**
+ * @var	array[array]	$projects			an array with projects to display
+ */
+?>
 <h1>Portfolio</h1>
 
 <div class="matrix">
-	<?php foreach (PortfolioHelper::getAllProjects() as $project): ?>
+	<?php foreach ($projects as $project): ?>
 		<?php if ($project['weight']%3 == 0): ?>
 			<?php if ($project['weight'] > 0): ?></div><?php endif; ?>
 			<div class="row <?php echo ($project['weight']%6 == 0 ? 'even' : 'odd'); ?>">
