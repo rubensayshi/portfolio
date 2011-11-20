@@ -8,7 +8,9 @@
 <p>
 	So as we speak this website is still almost completely static! <br />
 	Since I prefer editing pages in HTML over a WYWIWYG editor and I needed a (new) portfolio up in running as soon as posible I've chosen to build it from scratch and only use some PHP to avoid having to copy paste common parts of the website (such as header / footer / menu).<br />
-	The code it's running on is very to the point. I've already used it for another side project to since it's easy and reliable!
+	The code it's running on is very to the point. I've already used it for another side project to since it's easy and reliable!<br />
+	<br />
+	On the other hand there have been serveral moments where I was going wild with writing new code and after 30~60 minutes just reverting it because I realized it'd have to build a complete framework if I really wanted to satisfy myself! 
 </p>
 
 <h4>The design</h4>
