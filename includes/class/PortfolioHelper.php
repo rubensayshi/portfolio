@@ -68,7 +68,7 @@ abstract class PortfolioHelper
 			'title'			=> 'Gites',
 			'images'		=> self::getImages(self::getImageDir() . '/gites'),
 			'content_tpl'	=> 'portfolio/gites',
-			'tags'			=> array('HoppingerCMS', 'Huge project', 'Invoicing', 'Lead developer'),
+			'tags'			=> array('HoppingerCMS', 'Huge project', 'Invoicing', 'Migration', 'Lead developer'),
 		);
 		
 		self::$projects['timerime'] = array(

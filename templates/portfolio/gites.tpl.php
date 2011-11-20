@@ -18,3 +18,9 @@
 	The HoppingerCMS was build to create business websites of small to medium scale and be very flexible to match the needs of the clients. <br />
 	It however was not build for a high load website and for Gites we rewrote a lot of the code on the CMS! <br />
 </p>
+
+<h3>My responsibilities</h3>
+<p>
+	As I was one of the main developers for maintaining the old version 4 I knew most old modules and code and a lot of the (sometimes very special) exceptions that were made. <br />
+	During the project I grew into the position of lead developer on this project, flying around between the developers on the project to help them where needed.
+</p>
