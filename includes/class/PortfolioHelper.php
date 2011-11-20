@@ -67,7 +67,9 @@ abstract class PortfolioHelper
 		self::$projects['rtvrijnmond'] = array(
 			'title'			=> 'RTVRijnmond',
 			'images'		=> self::getWorkInProgressImages(),
-			'tags'			=> array('Drupal', 'Cluster', 'Migration', 'Symfony2'),
+			'content_tpl'	=> 'portfolio/rijnmond',
+			'tags'			=> array('Drupal6', 'Varnish', 'Capistrano', 'Cluster', 'Migration', 'Symfony2', 'Twitter Bootstrap'),
+			'urls'			=> array('http://beta.rijnmond.nl'	=> 'BETA'),
 		);
 		
 		self::$projects['koersvo'] = array(
