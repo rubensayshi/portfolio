@@ -20,7 +20,7 @@ function url($url)
  * helper function to create an internal URL to an asset
  * curently uses the url() function but this should be build into something with versioned asset URLs
  * 
- * @param	string		$asset			input url, should be relative to the webroot
+ * @param	string		$asset			input url, should be relative to the webroot or absolute
  * @return	string						output url
  */
 function asset($asset)
@@ -30,6 +30,11 @@ function asset($asset)
 	return url($asset);
 }
 
+/**
+ * get the webroot (full) path
+ * 
+ * @return		string
+ */
 function getWebroot()
 {
 	static $webroot;

@@ -1,9 +1,13 @@
 <?php 
 /**
+ * @file
+ * render a project detail page
+ * 
  * @var	array	$project			the project to display
  * @var	string	$content			the content for this project
  */
 
+// we need this js file 
 add_javascript_script(asset('js/carousel.js'));
 ?>
 <h1><?php echo $project['title']; ?></h1>
