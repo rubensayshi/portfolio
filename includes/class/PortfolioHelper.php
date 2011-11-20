@@ -34,7 +34,7 @@ abstract class PortfolioHelper
 		self::$projects['gites'] = array(
 			'title'			=> 'Gites',
 			'images'		=> self::getImages(self::getImageDir() . '/gites'),
-			'content'		=> 'Pwetty houses',
+			'content_tpl'	=> 'portfolio/gites',
 		);
 		
 		self::$projects['timerime'] = array(
@@ -73,5 +73,15 @@ abstract class PortfolioHelper
 	protected static function getImages($dir)
 	{
 		return glob("{$dir}/*_small.png");
+	}
+
+	public static function getImageId($img)
+	{
+		return str_replace('_small', '', $img);
+	}
+	
+	public static function getLargeImage($img)
+	{
+		return str_replace('_small', '_large', $img);
 	}
 }
