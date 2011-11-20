@@ -64,14 +64,14 @@ abstract class PortfolioHelper
 	 */
 	protected static function setupProjects()
 	{
-		self::$projects['rtvrijnmond'] = array(
+/*		self::$projects['rtvrijnmond'] = array(
 			'title'			=> 'RTVRijnmond',
 			'images'		=> self::getWorkInProgressImages(),
 			'content_tpl'	=> 'portfolio/rijnmond',
 			'tags'			=> array('Drupal6', 'Varnish', 'Capistrano', 'Cluster', 'Migration', 'Symfony2', 'Twitter Bootstrap'),
 			'urls'			=> array('http://beta.rijnmond.nl'	=> 'BETA'),
 		);
-		
+*/		
 		self::$projects['koersvo'] = array(
 			'title'			=> 'Onderwijszorgprofielen',
 			'images'		=> self::getImages(self::getImageDir() . '/koersvo'),
