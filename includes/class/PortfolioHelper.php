@@ -64,6 +64,12 @@ abstract class PortfolioHelper
 	 */
 	protected static function setupProjects()
 	{
+		self::$projects['rtvrijnmond'] = array(
+			'title'			=> 'RTVRijnmond',
+			'images'		=> self::getWorkInProgressImages(),
+			'tags'			=> array('Drupal', 'Cluster', 'Migration', 'Symfony2'),
+		);
+		
 		self::$projects['koersvo'] = array(
 			'title'			=> 'Onderwijszorgprofielen',
 			'images'		=> self::getImages(self::getImageDir() . '/koersvo'),
@@ -162,6 +168,13 @@ abstract class PortfolioHelper
 		}
 		
 		return $images;
+	}
+	
+	protected static function getWorkinprogressImages()
+	{
+		$images = self::getImages(self::getImageDir() . '/random');
+		
+		return array($images[array_rand($images)]);
 	}
 
 	/**

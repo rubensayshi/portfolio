@@ -15,7 +15,7 @@ add_javascript_script(asset('js/carousel.js'));
 <?php if ($project['tags']): ?>
 <ul class="tags">
 	<?php foreach ($project['tags'] as $tag): ?>
-		<li><small>></small> <?php echo $tag; ?></li>
+		<li><small>&lt;</small> <?php echo $tag; ?></li>
 	<?php endforeach; ?>
 </ul>
 <?php endif; ?>
@@ -23,13 +23,13 @@ add_javascript_script(asset('js/carousel.js'));
 <div class="carousel">
 	<div class="show_area">
 		<?php foreach($project['images'] as $i => $img): ?>
-			<img id="carousel_show_<?php echo PortfolioHelper::getImageId($img); ?>" class="<?php echo ($i == 0) ? 'active' : ''; ?>" src="<?php echo asset(PortfolioHelper::getLargeImage($img)); ?>" />
+			<img width="580" height="375" id="carousel_show_<?php echo PortfolioHelper::getImageId($img); ?>" class="<?php echo ($i == 0) ? 'active' : ''; ?>" src="<?php echo asset(PortfolioHelper::getLargeImage($img)); ?>" />
 		<?php endforeach; ?>
 	</div>
 	<div class="nav_area">
 		<?php foreach($project['images'] as $i => $img): ?>
 			<a href="#carousel_show_<?php echo PortfolioHelper::getImageId($img); ?>" class="span <?php echo ($i == 0) ? 'active' : ''; ?>">
-				<img src="<?php echo asset($img); ?>" />
+				<img width="130" height="82" src="<?php echo asset($img); ?>" />
 				<div class="mask"></div>
 			</a>
 		<?php endforeach; ?>
