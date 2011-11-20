@@ -369,3 +369,17 @@ a {
 	opacity: 0;
 }
 
+ul.tags {
+	height: 20px;
+	list-style: none;
+}
+
+ul.tags li {
+	float: left;
+	margin-left: 15px;
+	border-bottom: 1px solid black;
+}
+
+ul.tags li small {
+	font-size: 15px;
+}
