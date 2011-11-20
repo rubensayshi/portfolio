@@ -20,6 +20,7 @@ $env		= preg_match("/(www\.)?rubensayshi\.com$/", $baseUrl) ? 'prod' : 'dev';
  * require some helper functions
  */
 require "{$incDir}/url.inc.php";
+require "{$incDir}/templates.inc.php";
 require "{$incDir}/class/PortfolioHelper.php";
 
 /*
@@ -35,11 +36,7 @@ require "{$incDir}/bootstrap.inc.php";
  * atempt to find a file which we can include (php) or read (html) to handle the page request 
  */
 if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
-	ob_start();
-
-	require $pageFile;
-
-	$page['content'] = ob_get_clean();
+	$page['content'] = require $pageFile;
 } else if (($pageFile = "{$pageDir}/{$page['page']}.html") && file_exists($pageFile)) {
 	$page['content'] = file_get_contents($pageFile);
 }
@@ -48,4 +45,7 @@ if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
  * include the wrapper template which gets all the variable defined in our current scope
  * and can build up the page using $pages and $page
  */
-require "{$pageDir}/wrapper.php";
+echo render('wrapper', array(
+	'page'			=> $page,
+	'pages'			=> $pages,
+));
