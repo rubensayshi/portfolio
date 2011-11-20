@@ -40,7 +40,7 @@ function end_javascript_block()
 	set_javascript($js);
 }
 
-function set_javascript($js = null)
+function set_javascript($js = null, $unique = null)
 {
 	static $buffer = array();
 	
@@ -50,7 +50,20 @@ function set_javascript($js = null)
 		return $js;
 	}
 	
-	$buffer[] = $js;
+	if ($unique) {
+		$buffer[$unique] = $js;
+	} else {
+		$buffer[] = $js;
+	}
+}
+
+function add_javascript_script($script)
+{
+	$js = <<<EOD
+<script type="text/javascript" src="{$script}"></script>
+EOD;
+	
+	set_javascript($js, $script);	
 }
 
 function get_javascript()
