@@ -64,28 +64,66 @@ abstract class PortfolioHelper
 	 */
 	protected static function setupProjects()
 	{
+		self::$projects['koersvo'] = array(
+			'title'			=> 'Onderwijszorgprofielen',
+			'images'		=> self::getImages(self::getImageDir() . '/koersvo'),
+			'tags'			=> array('Symfony2', 'HTML2PDF', 'Forms'),
+		);
+		
 		self::$projects['gites'] = array(
 			'title'			=> 'Gites',
 			'images'		=> self::getImages(self::getImageDir() . '/gites'),
 			'content_tpl'	=> 'portfolio/gites',
 			'tags'			=> array('HoppingerCMS', 'Huge project', 'Invoicing', 'Migration', 'Lead developer'),
+			'urls'			=> array('http://www.gites.nl' => 'Gites'),
 		);
 		
 		self::$projects['timerime'] = array(
 			'title'			=> 'Timerime',
 			'images'		=> self::getImages(self::getImageDir() . '/timerime'),
 			'tags'			=> array('HoppingerCMS', 'High load'),
+			'urls'			=> array('http://www.timerime.com' => 'Timerime'),
+		);
+		
+		self::$projects['dierenambulance'] = array(
+			'title'			=> 'Dierenambulance',
+			'images'		=> self::getImages(self::getImageDir() . '/diam'),
+			'tags'			=> array('HoppingerCMS'),
+		);
+		
+		self::$projects['vvd'] = array(
+			'title'			=> 'VVD Rotterdam',
+			'images'		=> self::getImages(self::getImageDir() . '/vvd'),
+			'tags'			=> array('Drupal'),
+		);
+		
+		self::$projects['qhome'] = array(
+			'title'			=> 'Qhome',
+			'images'		=> self::getImages(self::getImageDir() . '/qhome'),
+			'tags'			=> array('HoppingerCMS', 'Gites API'),
 		);
 		
 		self::$projects['bondgenoten'] = array(
 			'title'			=> 'Bondgenoten',
 			'images'		=> self::getImages(self::getImageDir() . '/bondgenoten'),
 			'tags'			=> array('HoppingerCMS'),
+			'urls'			=> array(
+				'http://www.bondgenoten.net'		=> 'Bondgenoten',
+				'http://www.boomvanmourik.nl'		=> 'Boom van mourik',
+				'http://www.newid.nl'				=> 'Van tongeren',
+				'http://www.uwontwerper.nl'			=> 'Uw ontwerper',
+			),
 		);
 		
-		self::$projects['dierenambulance'] = array(
-			'title'			=> 'Dierenambulance',
-			'images'		=> self::getImages(self::getImageDir() . '/diam'),
+		self::$projects['united'] = array(
+			'title'			=> 'Unitedtrust',
+			'images'		=> self::getImages(self::getImageDir() . '/united'),
+			'tags'			=> array('HoppingerCMS'),
+		);
+		
+		self::$projects['maasmond'] = array(
+			'title'			=> 'Maasmond',
+			'images'		=> self::getImages(self::getImageDir() . '/maasmond'),
 			'tags'			=> array('HoppingerCMS'),
 		);
 		
