@@ -191,14 +191,14 @@ a:hover {
 	clear: both;
 }
 
-.resume_table.row .span1, 
+.resume_table.row .span, 
 .resume_table.row .span2, 
 .resume_table.row .span3 {
 	padding-right: 20px;
 	float: left;
 }
 
-.resume_table .row .span1 {
+.resume_table .row .span {
 	width: 100px;
 }
 .resume_table .row .span2 {
@@ -213,7 +213,95 @@ a:hover {
 .resume_table .row .span5 {
 	width: 500px;
 }
-.spacer {
+
+.matrix {
+	width: 660px;
+}
+
+.matrix .row {
 	clear: both;
-	margin-top: 40px;
+	background-color: black;
+	width: 560px;
+	height: 100px;
+	padding: 10px 10px;
+	margin: 10px;
+}
+
+.matrix .row.odd {
+	margin-left: -10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.matrix .row.even {	
+	margin-right: -20px;	
+	padding-right: 30px;
+	float: right;
+}
+
+.matrix .span {
+	width: 130px;
+	height: 100px;
+	margin: 0px 5px;
+	float: left;
+	position: relative;
+}
+
+.matrix .span .description {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+	
+	color: rgba(255, 255, 255, 0.6);
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s; 
+}
+
+.matrix .span:hover .description {
+	opacity: 1;
+}
+
+.matrix .row.even .span.last {
+}
+
+.matrix .row.odd .span.first {
+}
+
+.matrix .row.even .span {
+	float: left;
+}
+
+.matrix .row.odd .span {
+	float: right;
+}
+
+.matrix .mask {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 82px;
+	width: 130px;
+	background: rgba(0, 0, 0, 0.6);
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s; 
+}
+
+.matrix .span img {
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+.matrix .span:hover img {
+	-moz-box-shadow:0px 0px 30px #fff;
+}
+
+.matrix .span:hover .mask {
+	opacity: 0;
 }
