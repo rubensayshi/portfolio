@@ -8,10 +8,6 @@ a {
 	font-weight: bold;
 }
 
-a:hover {
-	background-color: #DEDEDE;
-}
-
 #container {
 	position: relative;
 	top: -70px;
@@ -240,6 +236,7 @@ a:hover {
 }
 
 .matrix .span {
+	display: block;
 	width: 130px;
 	height: 100px;
 	margin: 0px 5px;

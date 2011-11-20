@@ -20,6 +20,7 @@ $env		= preg_match("/(www\.)?rubensayshi\.com$/", $baseUrl) ? 'prod' : 'dev';
  * require some helper functions
  */
 require "{$incDir}/url.inc.php";
+require "{$incDir}/class/PortfolioHelper.php";
 
 /*
  * require page bootstrap process

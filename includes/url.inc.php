@@ -24,6 +24,19 @@ function url($url)
  * @return	string						output url
  */
 function asset($asset)
-{
+{	
+	$asset = str_replace(getWebroot().'/', '', $asset);
+	
 	return url($asset);
+}
+
+function getWebroot()
+{
+	static $webroot;
+	
+	if (is_null($webroot)) {
+		$webroot = dirname(dirname(__FILE__)) . '/httpdocs';
+	}
+	
+	return $webroot;
 }
