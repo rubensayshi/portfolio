@@ -15,7 +15,7 @@ add_javascript_script(asset('js/carousel.js'));
 <?php if ($project['tags']): ?>
 <ul class="tags">
 	<?php foreach ($project['tags'] as $tag): ?>
-		<li><small>&lt;</small> <?php echo $tag; ?></li>
+		<li><small>&gt;</small> <?php echo $tag; ?></li>
 	<?php endforeach; ?>
 </ul>
 <?php endif; ?>
