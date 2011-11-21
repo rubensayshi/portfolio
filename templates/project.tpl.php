@@ -20,6 +20,15 @@ add_javascript_script(asset('js/carousel.js'));
 </ul>
 <?php endif; ?>
 
+<?php if ($project['urls']): ?>
+External links:
+<ul class="urls">
+	<?php foreach ($project['urls'] as $url => $title): ?>
+		<li><a href="<?php echo $url; ?>"><?php echo $title; ?></a></li>
+	<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+
 <div class="carousel">
 	<div class="show_area">
 		<?php foreach($project['images'] as $i => $img): ?>
