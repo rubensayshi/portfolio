@@ -217,7 +217,7 @@ a {
 .matrix .row {
 	clear: both;
 	background-color: black;
-	width: 560px;
+	width: 420px;
 	height: 100px;
 	padding: 10px 10px;
 	margin: 10px;
@@ -225,13 +225,13 @@ a {
 
 .matrix .row.odd {
 	margin-left: -10px;
-	padding-left: 20px;
+	padding-left: 135px;
 	float: left;
 }
 
 .matrix .row.even {	
 	margin-right: -20px;	
-	padding-right: 30px;
+	padding-right: 135px;
 	float: right;
 }
 
@@ -258,14 +258,6 @@ a {
 
 .matrix .span:hover .description {
 	opacity: 1;
-}
-
-.matrix .row.even .span {
-	float: left;
-}
-
-.matrix .row.odd .span {
-	float: right;
 }
 
 .matrix .mask {

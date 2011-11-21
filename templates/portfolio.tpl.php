@@ -10,7 +10,7 @@
  */
 
 // define how many cells on 1 row
-$cells = 4;
+$cells = 3;
 ?>
 <h1>Portfolio</h1>
 
