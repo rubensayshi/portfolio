@@ -22,9 +22,15 @@
 </p>
 <a class="more" href="<?php echo url("aboutsite"); ?>"><h5>More about this website</h5></a>
 
-<h3>Highlighted project</h3>
+<h3>Highlighted project: Voiture</h3>
 <p>
-	<strong>Voiture!</strong>
 	Voiture is an SVN-based integrated deployment automation tool for small development teams that develop Drupal (v6 or v7) sites on an *nix/LAMP stack!
 </p>
 <a class="more" href="<?php echo url("projects"); ?>"><h5>More projects</h5></a>
+
+<h3>Latest blog: The website is done - part 1 <small>21-11-2011</small></h3>
+<p>
+	Okay, this required a lot more effort then I expected! <br />
+	Once I got going I found out that even an (almost) static website takes a lot of effort! Especially filling the content! <br />
+</p>
+<a class="more" href="<?php echo url("projects"); ?>"><h5>Read more</h5></a>
