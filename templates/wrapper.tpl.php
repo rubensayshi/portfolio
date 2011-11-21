@@ -8,12 +8,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<link rel="stylesheet" href="<?php echo asset('css/reset.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/font.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/text.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/960.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>" />
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 	
 	<title><?php echo ($page['page'] != 'index' ? "{$page['title']} | " : '') ?>Ruben de Vries</title>
 </head>
