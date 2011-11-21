@@ -244,7 +244,7 @@ a {
 	position: relative;
 }
 
-.matrix .span .description {
+.matrix .span div.description {
 	text-align: center;
 	font-weight: bold;
 	margin-top: 5px;
