@@ -69,7 +69,7 @@ abstract class PortfolioHelper
 			'images'		=> self::getImages(self::getImageDir() . '/rijnmond'),
 			'content_tpl'	=> 'portfolio/rijnmond',
 			'tags'			=> array('Drupal6', 'Varnish', 'Capistrano', 'Cluster', 'Migration', 'Symfony2', 'Twitter Bootstrap'),
-			'urls'			=> array('http://beta.rijnmond.nl'	=> 'BETA'),
+			'urls'			=> strtotime('2011-11-27 00:00:00') < time() ? array('http://www.rijnmond.nl'	=> 'RTVRijnmond') : array(),
 		);
 
 		self::$projects['koersvo'] = array(

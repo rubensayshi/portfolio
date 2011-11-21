@@ -8,9 +8,9 @@
 	<br />
 	We've ditched most modules provided and rewrote many to fit the specific needs of RTVRijnmond. <br />
 	Most noticably is the rewritten import modules (for all the content from the old site) going from about 4~5 days of import time to just 2 hours! <br />
-	Somehow other broadcasting stations (and the developers) found running import scripts for days acceptable, we didn't! How would you even go testing that?! <br />
+	Somehow other broadcasting stations (and the developers) found running an import script for multiple days acceptable, we didn't! How would you even go testing that?! <br />
 	<br />
-	The website is curently in development and we're soon releasing a (public) beta. <strong>This website won't be live untill 29 november!</strong><br />
+	The website is curently in development and we're soon releasing a (public) beta. <strong>The new website won't be live untill 29 november!</strong><br />
 	<br />
 	On the side I've also created a small webapplication which allows partners / relations of RTVRijnmond to maintain their 'teletext' pages. <br />
 	Luckily we were allowed to build this with Symfony2 and I also threw in twitter bootstrap just to give it and shot (and loved it!). <br />
