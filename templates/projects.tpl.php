@@ -8,6 +8,7 @@
 <h3>Voiture</h3>
 <ul>
 	<li><a href="http://voiture.hoppinger.com">Voiture documentation website</a></li>
+	<li><a href="http://www.youtube.com/watch?v=getjlzaz2VE">Voiture demo</a></li>
 </ul>
 <p>
 	Drupal is strongly build and focused towards being able to stack a lot of contrib modules on top of each other, all managed through a web interface. <br />
@@ -90,3 +91,46 @@
 
 	<strong>The first thing I will do when I have enough free time in a weekend and feel like coding is getting this bundle cleaned and more inline with the symfony way of doing things!</strong>
 </p>
+
+<h3>Talks</h3>
+<p>
+	I love sharing my knowledge with others, especially when I'm enthausiastic about something.<br />
+	Apart from joining interns and juniors in their quest to knowledge and spamming my companies internal mailing list with 'must reads', I got the chance to do some 'talks', both big and small.
+</p>
+
+<h4>DrupalTechTalk & DrupalJam: Voiture</h4>
+<ul>
+	<li><a href="http://www.youtube.com/watch?v=hdTWeamQYbk">DrupalJam Talk</a></li>
+</ul>
+<p>
+	About the time we were almost done with the first version of Voiture (read up) Hoppinger also decided to start a new type of Drupal (mini)conference; the DrupalTechTalk. <br />
+	The intetion was to find some more technical speakers about Drupal related subjects, compared to the, often manager-level orentated, Drupal talks you usually see. <br />
+	<br />
+	Voiture seemed like an awesome subject to talk about or more generic; Drupal Automated Deployment. <br />
+	I did the talk together with Jochem Maas, who was the inspiration for Voiture and who did a lot of work on the concept and code to set out the basic lines. <br />
+</p>
+<p>
+	The DrupalTechTalk was very well recieved and afterwards we spoke to a lot of people interested in the idea, <br />
+	Among others one of the organizers of the biggest Drupal event in the Netherlands; DrupalJam. <br />
+	And that's how we managed to get a session at the DrupalJam. <br />
+	<br />
+	Again the talk was very well recieved and around this time actually got our documentation website online! <br />
+	Unfortunatly Voiture is so far off the usual Drupal mindset that it wasn't really used by other parties, but it did inspire some other companies to develop similair projects.
+</p>
+
+<h4>DrupalLunch & TechLunch</h4>
+<p>
+	To promote some sharing of knowledge within the company we initially started the DrupalLunch, but as I wanted to share a lot more about things other then Drupal we renamed it shortly after! <br />
+	It's now a weekly event, every tuesday the lunch is held in the presentation / meeting room with sandwiches. <br />
+	<ul>
+		<li>Voiture</li>
+		<li>Symfony2</li>
+		<li>Template Engines (Twig)</li>
+		<li>Version Control (SVN, GIT)</li>
+		<li>Drupal 7</li>
+	</ul>
+</p>
+
+
+
+
