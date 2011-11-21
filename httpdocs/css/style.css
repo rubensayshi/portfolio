@@ -314,8 +314,18 @@ a {
 	left: 47px;
 }
 
+.lt-ie9 .carousel .show_area img {
+	filter: alpha(opacity=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
 .carousel .show_area img.active {
 	opacity: 1;
+}
+
+.lt-ie9 .carousel .show_area img.active {
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .carousel .nav_area {

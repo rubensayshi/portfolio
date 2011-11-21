@@ -5,7 +5,10 @@
  */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]> <html lang="en" class="lt-ie9 ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="lt-ie9 ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="lt-ie9 ie8"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class=""> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="<?php echo asset('css/reset.css'); ?>" />
