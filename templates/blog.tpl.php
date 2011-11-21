@@ -8,6 +8,27 @@
 	So instead of blogging continuesly about whatever comes up in my mind I'll just limit myself to writing about major changes in my (professional) life.
 </p>
 
+<h3>The website is done - part 1 <small>21-11-2011</small></h3>
+<p>
+	Okay, this required a lot more effort then I expected! <br />
+	Once I got going I found out that even an (almost) static website takes a lot of effort! Especially filling the content! <br />
+	I'm fairly satisfied with most of the text I've written (a lot of it is even proper english) and I personally like the look of it. <br />
+	It only has a few flashy parts (the menu and portfolio pages) but I'm satisfied with their feel (and code, gotta love CSS3).  
+</p>
+<p>
+	As for the code behind it, it's clean and works like a charm! But ... There have been severial ocasion where I had to stop myself (after about an hour) to avoid writing a completely new framework. <br />
+	Bit of a waste of those few hours but oh well, it's always fun to write those pieces of code even if you revert them afterwards! <br />
+	<br />
+	I'm pretty sure that as soon as I've finish adding a few more portfolio items and projects and when I'm done with my first job application I'm gonna rewrite the whole thing though! <br />
+	I think Django looks really awesome (about as awesome as Symfony2 and it even shares the same template syntax!) and I want to give it a try! <br />
+	<br />
+	Since the code behind the website is actually a part of displaying what skills I've got I'm still in doubt weither I should wait with sending the job application untill I've rewritten the site though ...
+</p>
+<p>
+	Now back to taking screenshots of the projects I've done in the past ... 
+</p>
+
+
 <h3>Looking for a new job <small>01-11-2011</small></h3>
 <p>
 	After a 6 month internship at Hoppinger I graduated and got a job there as webdeveloper. <br />
