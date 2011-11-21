@@ -75,6 +75,7 @@ abstract class PortfolioHelper
 		self::$projects['koersvo'] = array(
 			'title'			=> 'Onderwijszorgprofielen',
 			'images'		=> self::getImages(self::getImageDir() . '/koersvo'),
+			'content_tpl'	=> 'portfolio/koersvo',
 			'tags'			=> array('Symfony2', 'HTML2PDF', 'Forms'),
 		);
 		
@@ -89,30 +90,38 @@ abstract class PortfolioHelper
 		self::$projects['timerime'] = array(
 			'title'			=> 'Timerime',
 			'images'		=> self::getImages(self::getImageDir() . '/timerime'),
+			'content_tpl'	=> 'portfolio/timerime',
 			'tags'			=> array('HoppingerCMS', 'High load'),
 			'urls'			=> array('http://www.timerime.com' => 'Timerime'),
 		);
 		
 		self::$projects['dierenambulance'] = array(
 			'title'			=> 'Dierenambulance',
+			'content_tpl'	=> 'portfolio/dierenambulance',
 			'images'		=> self::getImages(self::getImageDir() . '/diam'),
 			'tags'			=> array('HoppingerCMS'),
 		);
 		
 		self::$projects['vvd'] = array(
 			'title'			=> 'VVD Rotterdam',
+			'content_tpl'	=> 'portfolio/vvd',
 			'images'		=> self::getImages(self::getImageDir() . '/vvd'),
 			'tags'			=> array('Drupal'),
+			'urls'			=> array('http://www.vvdrotterdam.nl' => 'VVD Rotterdam'),
 		);
 		
 		self::$projects['qhome'] = array(
 			'title'			=> 'Qhome',
+			'content_tpl'	=> 'portfolio/qhome',
 			'images'		=> self::getImages(self::getImageDir() . '/qhome'),
-			'tags'			=> array('HoppingerCMS', 'Gites API'),
+			'tags'			=> array('HoppingerCMS', 'Gites API'),			
+			'urls'			=> array('http://www.qhome.fr' => 'QHome'),
+		
 		);
 		
 		self::$projects['bondgenoten'] = array(
 			'title'			=> 'Bondgenoten',
+			'content_tpl'	=> 'portfolio/bondgenoten',
 			'images'		=> self::getImages(self::getImageDir() . '/bondgenoten'),
 			'tags'			=> array('HoppingerCMS'),
 			'urls'			=> array(
@@ -125,14 +134,20 @@ abstract class PortfolioHelper
 		
 		self::$projects['united'] = array(
 			'title'			=> 'Unitedtrust',
+			'content_tpl'	=> 'portfolio/united',
 			'images'		=> self::getImages(self::getImageDir() . '/united'),
-			'tags'			=> array('HoppingerCMS'),
+			'tags'			=> array('HoppingerCMS'),			
+			'urls'			=> array(
+				'http://www.united-itrust.com'		=> 'UnitedTrust',
+				'http://www.united-ibank.com'		=> 'UnitedBank',
+			),
 		);
 		
 		self::$projects['maasmond'] = array(
 			'title'			=> 'Maasmond',
 			'images'		=> self::getImages(self::getImageDir() . '/maasmond'),
 			'tags'			=> array('HoppingerCMS'),
+			'urls'			=> array('http://www.maasmond.nl' => 'Maasmond'),
 		);
 		
 		$i = 0;
