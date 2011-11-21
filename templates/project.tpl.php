@@ -12,7 +12,7 @@ add_javascript_script(asset('js/carousel.js'));
 ?>
 <h1><?php echo $project['title']; ?></h1>
 
-<?php if ($project['tags']): ?>
+<?php if (isset($project['tags']) && !empty($project['tags'])): ?>
 <ul class="tags">
 	<?php foreach ($project['tags'] as $tag): ?>
 		<li><small>&gt;</small> <?php echo $tag; ?></li>
@@ -20,7 +20,7 @@ add_javascript_script(asset('js/carousel.js'));
 </ul>
 <?php endif; ?>
 
-<?php if ($project['urls']): ?>
+<?php if (isset($project['urls']) && !empty($project['urls'])): ?>
 External links:
 <ul class="urls">
 	<?php foreach ($project['urls'] as $url => $title): ?>
