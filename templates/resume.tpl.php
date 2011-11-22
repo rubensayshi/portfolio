@@ -45,6 +45,11 @@
 <h3>Opleidingen</h3>
 <div class="resume_table">
 	<div class="row clearfix">
+		<div class="span3">Zend PHP 5.3 Certification</div>
+		<div class="span1">2011</div>
+		<div class="span1">Rotterdam</div>
+	</div>
+	<div class="row clearfix">
 		<div class="span3">HBO Grafimedia Technologie - Hogeschool Rotterdam</div>
 		<div class="span1">2004-2008</div>
 		<div class="span1">Rotterdam</div>
