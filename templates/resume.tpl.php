@@ -5,6 +5,11 @@
 	It's curently written in Dutch since I'm also doing my job applications in Dutch. <br />
 	Why eventhough the whole website is english? Because I'm using <a href="https://github.com/antialize/wkhtmltopdf">wkhtmltopdf</a> to generate a PDF from this page! <br />
 </p>
+<p>
+	You can download the PDF versions here, they're just the same page with a slightly different wrapper: <br />
+	<a href="<?php echo asset("pdf/cv.pdf"); ?>">Normal PDF</a><br />
+	<a href="<?php echo asset("pdf/cv_print.pdf"); ?>">Print-friendly PDF</a>
+</p>
 <?php endif; ?>
 
 <h3>Personalia</h3>
@@ -143,7 +148,8 @@
 		<div class="span3">PHP, NodeJS<br />
 							MySQL (SQLLite, MSSQL), MongoDB<br />
 							Linux, Apache2, Varnish, Apache SOLR<br />
-							Bash, Ruby, Lingo, XML
+							Bash, Ruby, Lingo, XML<br />
+							wkhtmltopdf
 		</div>
 	</div>
 	<div class="row clearfix">
