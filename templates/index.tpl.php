@@ -13,6 +13,15 @@
 	Developing so-called 'webapplications' requires a continiously expanding skillset to fit the needs of clients and an open mind to any new techniques out there. <br />
 	Actually, any webdeveloper who really loves his job should be 'open minded' and is always searching for the next new thing which might change the world!
 </p>
+<h3>My personal slogan</h3>
+<p>
+	I live and work by a couple of slogans and quotes, but my favorite work related one: <br />
+	<i>Everything I build older then 1 month is crap!</i> <br />
+	<br />
+	Okay, maybe a bit harsh, but since as a webdeveloper we have to be pragmatic and often you'd want to expand your code more, make it more robust and extensible, 
+	BUT that the client who's paying you will never have any benifit from it! <br />
+	That means you can always do better, combining that with the fact that I'm learning new things super fast my previous project will always look worse then my last/current project.
+</p>
 <a class="more" href="<?php echo url("aboutme"); ?>"><h5>More about me</h5></a>
 
 <h3>This Website</h3>
