@@ -17,13 +17,13 @@
 	<?php if (isset($_GET['printpdf'])): ?>
 		<link rel="stylesheet" href="<?php echo asset('css/printpdf.css'); ?>" />
 	<?php endif; ?>
-	<title>Curriculum Vitea - Ruben de Vries</title>
+	<title>Curriculum Vitae - Ruben de Vries</title>
 </head>
 <body>
 <div id="container" class="container_12">
 	<div class="prefix_3 grid_9 page-header">
 		<h1 class="header">Ruben <br /><small>de Vries</small></h1>
-		<h2 class="subheader">Curriculum Vitea</h2>
+		<h2 class="subheader">Curriculum Vitae</h2>
 	</div>
 	<div class="grid_3 sidebar">
 		<nav class="nav">

@@ -1,5 +1,5 @@
 <?php if (!isset($_GET['pdf'])): ?>
-<h1>Curriculum Vitea</h1>
+<h1>Curriculum Vitae</h1>
 <p>
 	This is my resume, last updated on 19 november 2011. <br />
 	It's curently written in Dutch since I'm also doing my job applications in Dutch. <br />
