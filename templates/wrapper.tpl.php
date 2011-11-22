@@ -16,9 +16,6 @@
 	<link rel="stylesheet" href="<?php echo asset('css/text.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/960.css'); ?>" />
 	<link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>" />
-	<?php if (isset($_GET['pdf'])): ?>
-		<link rel="stylesheet" href="<?php echo asset('css/printpdf.css'); ?>" />
-	<?php endif; ?>
 	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->

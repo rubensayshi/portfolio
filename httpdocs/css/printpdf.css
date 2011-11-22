@@ -1,13 +1,4 @@
-body {
-	width: 830px;
-	height: 1355px; 
-}
-
-.page-header .header {
-	font-size: 55px;
-	letter-spacing: 1px;
-}
-
-#container {
-	left: -30px;
+html, body {
+	background-color: white;
+	color: black;
 }

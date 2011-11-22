@@ -42,10 +42,18 @@ if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
 }
 
 /*
+ * if ?printpdf=1 or ?pdf=1 are set we want to handle it a little different
+ */
+if (isset($_GET['printpdf'])) {
+	$_GET['pdf'] = $_GET['printpdf'];
+}
+
+/*
  * include the wrapper template which gets all the variable defined in our current scope
  * and can build up the page using $pages and $page
  */
-echo render('wrapper', array(
+$tpl = isset($_GET['pdf']) ? 'pdf_wrapper' : 'wrapper';
+echo render($tpl, array(
 	'page'			=> $page,
 	'pages'			=> $pages,
 ));
