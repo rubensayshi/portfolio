@@ -24,6 +24,13 @@ require "{$incDir}/templates.inc.php";
 require "{$incDir}/class/PortfolioHelper.php";
 
 /*
+ * if ?printpdf=1 isset then ?pdf=1 should also be set
+ */
+if (isset($_GET['printpdf'])) {
+	$_GET['pdf'] = $_GET['printpdf'];
+}
+
+/*
  * require page bootstrap process
  * this will setup the following vars
  * 
@@ -39,13 +46,6 @@ if (($pageFile = "{$pageDir}/{$page['page']}.php") && file_exists($pageFile)) {
 	$page['content'] = require $pageFile;
 } else if (($pageFile = "{$pageDir}/{$page['page']}.html") && file_exists($pageFile)) {
 	$page['content'] = file_get_contents($pageFile);
-}
-
-/*
- * if ?printpdf=1 or ?pdf=1 are set we want to handle it a little different
- */
-if (isset($_GET['printpdf'])) {
-	$_GET['pdf'] = $_GET['printpdf'];
 }
 
 /*
