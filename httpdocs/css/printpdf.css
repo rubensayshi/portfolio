@@ -2,3 +2,7 @@ html, body {
 	background-color: white;
 	color: black;
 }
+
+.sidebar .contact li a {
+	color: black;
+}
