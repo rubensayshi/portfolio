@@ -62,24 +62,6 @@
 </div>
 
 <h3>Werkervaring</h3>
-<h4>Restaurant de Poort</h4>
-<div class="resume_table">
-	<div class="row clearfix">
-		<div class="span2">Periode:</div>
-		<div class="span3">Februari 2003 - Juli 2008</div>
-	</div>
-	<div class="row clearfix">
-		<div class="span2">Functie:</div>
-		<div class="span3">Kok</div>
-	</div>
-	<div class="row clearfix">
-		<div class="span2">Adres:</div>
-		<div class="span3">Eind 19
-							4201CP Gorinchem
-		</div>
-	</div>
-</div>
-
 <h4>Hoppinger</h4>
 <div class="resume_table">
 	<div class="row clearfix">
@@ -109,6 +91,24 @@
 		<div class="span3">
 			Webdeveloper op veel verschillende projecten. <br />
 			Rol varieert tussen Junior Developer tot Senior / Lead Developer.
+		</div>
+	</div>
+</div>
+
+<h4>Restaurant de Poort</h4>
+<div class="resume_table">
+	<div class="row clearfix">
+		<div class="span2">Periode:</div>
+		<div class="span3">Februari 2003 - Juli 2008</div>
+	</div>
+	<div class="row clearfix">
+		<div class="span2">Functie:</div>
+		<div class="span3">Kok</div>
+	</div>
+	<div class="row clearfix">
+		<div class="span2">Adres:</div>
+		<div class="span3">Eind 19
+							4201CP Gorinchem
 		</div>
 	</div>
 </div>
