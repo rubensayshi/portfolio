@@ -60,7 +60,8 @@ foreach ($pages as $url => $page) {
 /*
  * handlle the REQUEST_URI and break it down into something we can match against our $pages
  */
-$url		= explode("/", $_SERVER['REQUEST_URI']);
+$url		= explode("?", $_SERVER['REQUEST_URI']);
+$url		= explode("/", $url[0]);
 $url		= array_values(array_filter($url));
 $first		= strtolower(isset($url[0]) ? $url[0] : '');
 $default	= 'index';
