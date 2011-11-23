@@ -66,7 +66,7 @@
 <div class="resume_table">
 	<div class="row clearfix">
 		<div class="span2">Periode:</div>
-		<div class="span3">Augustus 2008 - December 2011</div>
+		<div class="span3">Augustus 2008 - Heden</div>
 	</div>
 	<div class="row clearfix">
 		<div class="span2">Functie:</div>
