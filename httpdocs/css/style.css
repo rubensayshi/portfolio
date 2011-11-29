@@ -388,3 +388,13 @@ ul.tags li {
 ul.tags li small {
 	font-size: 15px;
 }
+
+.thumb-image-scale-effect {
+	clear: both;
+	width: 200px;
+}
+
+.thumb-image-scale-effect:hover {
+	-moz-transition: all 0.7s ease-in-out 0s;
+	width: 100%;
+}

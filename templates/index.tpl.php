@@ -21,6 +21,10 @@
 	Okay, maybe a bit harsh, but since as a webdeveloper we have to be pragmatic and often you'd want to expand your code more, make it more robust and extensible, 
 	BUT that the client who's paying you will never have any benifit from it! <br />
 	That means you can always do better, combining that with the fact that I'm learning new things super fast my previous project will always look worse then my last/current project.
+
+	<br />
+	<img class="thumb-image-scale-effect" src="<?php echo asset("images/comic-1.jpg"); ?>" />
+
 </p>
 <a class="more" href="<?php echo url("aboutme"); ?>"><h5>More about me</h5></a>
 
