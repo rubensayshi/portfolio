@@ -66,7 +66,7 @@
 <div class="resume_table">
 	<div class="row clearfix">
 		<div class="span2">Periode:</div>
-		<div class="span3">Augustus 2008 - Heden</div>
+		<div class="span3">Augustus 2008 - heden</div>
 	</div>
 	<div class="row clearfix">
 		<div class="span2">Functie:</div>
@@ -99,7 +99,7 @@
 <div class="resume_table">
 	<div class="row clearfix">
 		<div class="span2">Periode:</div>
-		<div class="span3">Februari 2003 - Juli 2008</div>
+		<div class="span3">Februari 2003 - juli 2008</div>
 	</div>
 	<div class="row clearfix">
 		<div class="span2">Functie:</div>
