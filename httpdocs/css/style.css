@@ -140,15 +140,23 @@ a {
 
 .sidebar .nav li:hover,
 .sidebar .nav li.active {
-	-moz-transition: all 0.7s ease-in-out 0s;
 	background-color: black;
 	border: 2px solid white;
+	
+	-webkit-transition: all 0.7s ease-in-out 0s;
+	   -moz-transition: all 0.7s ease-in-out 0s;
+	   	 -o-transition: all 0.7s ease-in-out 0s;
+			transition: all 0.7s ease-in-out 0s;
 }
 
 .sidebar .nav li:hover a,
 .sidebar .nav li.active a {
-	-moz-transition: all 0.3s ease-in-out 0s;
 	color: white;
+	
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	   -moz-transition: all 0.3s ease-in-out 0s;
+		 -o-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
 }
 
 .sidebar .contact {
@@ -172,14 +180,22 @@ a {
 }
 
 .sidebar .contact li:hover {
-	-moz-transition: all 0.7s ease-in-out 0s;
 	background-color: white;
 	border-bottom: 2px solid black;
+	
+	-webkit-transition: all 0.7s ease-in-out 0s;
+	   -moz-transition: all 0.7s ease-in-out 0s;
+		 -o-transition: all 0.7s ease-in-out 0s;
+			transition: all 0.7s ease-in-out 0s;
 }
 
 .sidebar .contact li:hover a {
-	-moz-transition: all 0.7s ease-in-out 0s;
 	color: black;
+	
+	-webkit-transition: all 0.7s ease-in-out 0s;
+	   -moz-transition: all 0.7s ease-in-out 0s;
+		 -o-transition: all 0.7s ease-in-out 0s;
+			transition: all 0.7s ease-in-out 0s;
 }
 
 .resume_table {
@@ -253,10 +269,11 @@ a {
 	margin-top: 5px;
 	color: white;
 	color: rgba(255, 255, 255, 0.6);
+	
 	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s; 
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s; 
 }
 
 .matrix .span:hover .description {
@@ -271,21 +288,25 @@ a {
 	height: 82px;
 	width: 130px;
 	background: rgba(0, 0, 0, 0.6);
+	
 	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s; 
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s; 
 }
 
 .matrix .span img {
 	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s;
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s;
 }
 
 .matrix .span:hover img {
-	-moz-box-shadow:0px 0px 30px #fff;
+	-webkit-box-shadow: 0px 0px 30px #fff;
+	   -moz-box-shadow: 0px 0px 30px #fff;
+		 -o-box-shadow: 0px 0px 30px #fff;
+			box-shadow: 0px 0px 30px #fff;
 }
 
 .matrix .span:hover .mask {
@@ -306,15 +327,15 @@ a {
 }
 
 .carousel .show_area img {
-	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s;
-
 	opacity: 0;
 	position: absolute;
 	top: 5px;
 	left: 47px;
+
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s;
 }
 
 .lt-ie9 .carousel .show_area img {
@@ -357,17 +378,18 @@ a {
 	height: 82px;
 	width: 130px;
 	background: rgba(0, 0, 0, 0.6);
+
 	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s; 
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s; 
 }
 
 .carousel .span img {
 	-webkit-transition: all 0.5s ease-in-out 0s;
-	-moz-transition: all 0.5s ease-in-out 0s;
-	-o-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.5s ease-in-out 0s;
+	   -moz-transition: all 0.5s ease-in-out 0s;
+		 -o-transition: all 0.5s ease-in-out 0s;
+			transition: all 0.5s ease-in-out 0s;
 }
 
 .carousel .span.active .mask {
@@ -395,6 +417,10 @@ ul.tags li small {
 }
 
 .thumb-image-scale-effect:hover {
-	-moz-transition: all 0.7s ease-in-out 0s;
-	width: 100%;
+	width: 670px;
+
+	-webkit-transition: all 0.7s ease-in-out 0s;
+	   -moz-transition: all 0.7s ease-in-out 0s;	
+		 -o-transition: all 0.7s ease-in-out 0s;
+			transition: all 0.7s ease-in-out 0s;
 }
