@@ -7,3 +7,7 @@ html, body {
 .sidebar .contact li a {
 	color: black;
 }
+
+.content {
+	padding-bottom: 0px;
+}
