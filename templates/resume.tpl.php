@@ -1,7 +1,7 @@
 <?php if (!isset($_GET['pdf'])): ?>
 <h1>Curriculum Vitae</h1>
 <p>
-	This is my resume, last updated on 19 november 2011. <br />
+	This is my resume, last updated on 16 januari 2012. <br />
 	It's curently written in Dutch since I'm also doing my job applications in Dutch. <br />
 	Why eventhough the whole website is english? Because I'm using <a href="https://github.com/antialize/wkhtmltopdf">wkhtmltopdf</a> to generate a PDF from this page! <br />
 </p>
@@ -66,7 +66,7 @@
 <div class="resume_table">
 	<div class="row clearfix">
 		<div class="span2">Periode:</div>
-		<div class="span3">Augustus 2008 - heden</div>
+		<div class="span3">Augustus 2008 - December 2011</div>
 	</div>
 	<div class="row clearfix">
 		<div class="span2">Functie:</div>
