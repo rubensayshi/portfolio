@@ -62,6 +62,26 @@
 </div>
 
 <h3>Werkervaring</h3>
+<h4>Hyves</h4>
+<div class="resume_table">
+	<div class="row clearfix">
+		<div class="span2">Periode:</div>
+		<div class="span3">Maart 2012 - Heden</div>
+	</div>
+	<div class="row clearfix">
+		<div class="span2">Functie:</div>
+		<div class="span3">Webdeveloper</div>
+	</div>
+	<div class="row clearfix">
+		<div class="span2">Adres:</div>
+		<div class="span3">Frederiksplein 42</div>
+	</div>
+	<div class="row clearfix">
+		<div class="span2">Telefoon:</div>
+		<div class="span3">020 5353839</div>
+	</div>
+</div>
+
 <h4>Hoppinger</h4>
 <div class="resume_table">
 	<div class="row clearfix">
